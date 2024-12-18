@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Home.css" />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("./image/iris\ \(2\).jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+
+    @media (min-width: 601px) {
+
+      .w3-col.m3,
+      .w3-quarter {
+        width: 16%;
+        margin: 4px;
+      }
+    }
+
+    .w3-padding-64 {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+
+    .carousel-control-prev-icon {
+      background-color: black;
+    }
+
+    .carousel-indicators li {
+      background-color: red;
+    }
+
+
+    .w3-padding-32 {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      margin-left: 46%;
+    }
+
+    .w3-greyscale-min,
+    .w3-grayscale-min {
+      filter: grayscale(00%);
+    }
+
+
+    label {
+      color: black;
+      display: block;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin: 0 0 1em 0;
+    }
+
+    input[type="checkbox"]+label,
+    input[type="radio"]+label {
+
+      color: black;
+
+    }
+
+    .btn-secondary {
+      color: white;
+      background-color: blue;
+      border-color: black;
+    }
+
+    hr {
+      border: 0;
+      border-bottom: solid 2px #fff;
+      margin: 2px;
+    }
+
+
+    .w3-dark-grey,
+    .w3-hover-dark-grey:hover,
+    .w3-dark-gray,
+    .w3-hover-dark-gray:hover {
+      color: #fff !important;
+      background-color: #2e3842 !important;
+    }
+
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url(./image/iris\ \(2\).jpg);
+      min-height: 90%;
+    }
+
+    .w3-display-left {
+      position: absolute;
+      top: 30%;
+      left: 0%;
+      transform: translate(0%, -50%);
+      -ms-transform: translate(-0%, -50%);
+    }
+
+    header p {
+
+      position: relative;
+      top: 17em;
+
+    }
+
+    .w3-white,
+    .w3-hover-white:hover {
+      color: #000 !important;
+      background-color: white !important;
+      border: 2px solid black;
+    }
+
+    .w3-padding-large {
+      padding: 0px 3px !important;
+    }
+
+    .w3-black,
+    .w3-hover-black:hover {
+      color: #fff !important;
+      background-color: #2e3842 !important;
+      text-align: center;
+
+    }
+
+    .w3-border {
+      border: 1px solid #ccc !important;
+      text-align: center;
+    }
+
+    .w3-padding-32 {
+      padding-top: 20px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .w3-border {
+      border: 11px solid #ccc !important;
+      text-align: center;
+      width: auto;
+      margin: auto;
+      color: #000 !important;
+      background-color: #2e3842 !important;
+      margin-top: 1%;
+    }
+
+    .w3-opacity,
+    .w3-hover-opacity:hover {
+      opacity: 1.6;
+    }
+
+    label {
+      display: block;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin: -10px 15px 0em 4px;
+    }
+
+    nput[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select {
+      height: 2.75em;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    textarea {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      background-color: rgba(144, 144, 144, 0.25);
+      border-radius: 3px;
+      border: none;
+      color: inherit;
+      display: block;
+      outline: 0;
+      padding: 0 1em;
+      text-decoration: none;
+      width: 70%;
+    }
+
+    .w3-btn,
+    .w3-button {
+      padding: 0px 16px;
+    }
+
+
+
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif
+    }
+
+    .w3-third img {
+      margin-bottom: -6px;
+      opacity: 0.8;
+      cursor: pointer
+    }
+
+    .w3-third img:hover {
+      opacity: 1
+    }
+
+
+    .w3-padding-32 {
+      padding-top: 15px !important;
+      padding-bottom: 0px !important;
+      margin-top: 1%;
+      margin-left: 0%;
+      background-color: #2e3842 !important;
+    }
+
+    w3-btn,
+    .w3-button {
+      padding: 0px 16px;
+      margin-bottom: 18px;
+      border: 2px solid white;
+    }
+
+    #page-wrapper {
+      -moz-transition: opacity 0.5s ease;
+      -webkit-transition: opacity 0.5s ease;
+      -ms-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease;
+      opacity: 1;
+      padding-top: 0em;
+    }
+  </style>
+  <title>Vinay yadav</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand active">Porsche</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./aboutt.html">About</a>
+        </li>
+
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Service
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./Detail.html">Details</a>
+            <a class="dropdown-item" href="./Image.html">Image</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="video.html">Video</a>
+            <a class="dropdown-item" href="./Service.html">Service</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="./contact.html">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="mx-2">
+        <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login to Porsche</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get an Porsche Account</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="cexampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="cexampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Creat Account</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small">Porsche 911 GT3</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Porsche 911 GT3</span>
+      <span class="w3-large">from INR 35,056,000</span>
+      <!-- <p><a href="#about"
+          class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Vinay Yadav</a></p> -->
+    </div>
+
+  </header>
+
+  <hr>
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge"> 1,322 mm</span>
+      <br>Height
+
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge"> 1,900 mm</span>
+      <br>
+      Width
+
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">4,572 mm</span>
+      <br>Length
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">2,456 mm</span>
+      <br>Wheelbase
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge"> 386 KW</span>
+      <br>Power (kW)
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge"> 296 km/h</span>
+      <br>
+      Top speed
+    </div>
+  </div>
+  <hr>
+
+  <div id="page-wrapper">
+    <section id="two" class="wrapper alt style2">
+      <section class="spotlight">
+        <div class="image"><img src="image/iris (1).jpg" alt="" /></div>
+        <div class="content">
+          <h2>Wide turbo body with air intake cover.<br /></h2>
+          <p style="color:  yellow;">The wide turbo body with air intake panel significantly contributes to the
+            aerodynamic optimisation of the 911 GT3 RS and reinforces the athletic appearance. It also opens up space
+            for new, wider wheels that improve handling even further...</p>
+        </div>
+      </section>
+      <section class="spotlight">
+        <div class="image"><img src="image/iris.jpg" alt="" /></div>
+        <div class="content">
+          <h2>
+            Maximum performance.<br />
+          </h2>
+          <p style="color: yellow;">As soon as the lights give the starting signal, the new 911 GT3 RS delivers
+            unbelievable performance of up to 465 Nm on the circuit. 386 kW (525 PS) catapult you from 0-100 km/h in 3.2
+            seconds, with no time to breathe until reaching a top speed of 296 km/h. The lightweight stainless steel
+            sports exhaust system ensures an unfiltered sound experience up to a maximum of 9,000 rpm..</p>
+        </div>
+      </section>
+      <section class="spotlight">
+        <div class="image"><img src="image/iris (3).jpg" alt="" /></div>
+        <div class="content">
+          <h2>Increased comfort.<br />
+          </h2>
+          <p style="color: yellow;">The full bucket seats made of carbon fibre reinforced plastic (CFRP) with
+            carbon-weave finish and integrated thorax airbag offer particularly good lateral support with minimal
+            weight. The fore/aft adjustment is manual, the height adjustment is electric. The cover is made of black
+            leather as standard, with 'GT3 RS' lettering embroidered on the head rests and a seat centre section in
+            black perforated Race-Tex with contrasting underlay. The adaptive sports seats Plus (18-way, electric) are
+            available as an option.</p>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <body>
+
+    <div class="w3-container w3-padding-32 w3-black w3-opacity w3-card w3-hover-opacity-off"
+      style="    margin-top: 1%;">
+      <h2>Get the best offers Today.</h2>
+      <p> It's Time To Upgrade Your Car. <br>
+        Best Exchanges Value | Trusted By Customers | Best Exchanges Offers.
+      </p>
+      <p class="w3-xlarge">
+        <button onclick="document.getElementById('id03').style.display='block'"
+          class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off"
+          style="padding: -1px 0px;padding: 0px 6px;">View Complete Offers</button>
+      </p>
+    </div>
+    <div id="id03" class="w3-modal">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+        <div class="w3-container w3-white w3-center">
+          <h2 style="color: #000;">The Latest Porsche 911 GT3 RS Discounts In Delhi Are:</h2>
+
+          <form style=" color:  red;">
+            <p>Get cash discount upto Rs. 25.27 Lakh/-.</p>
+            <p>Get exchange bonus upto Rs. 11.27 Lakh/-</p>
+            <p>Get corporate bonus upto Rs. 80 Lakh/-</p>
+
+            <label style="color: red;">E-mail</label>
+            <input class="w3-input w3-border" type="text" placeholder="Your Email address "
+              style="margin-bottom: 19px;">
+          </form>
+          <br>
+          <p><i></i></p>
+          <div class="w3-row" style="
+              justify-content: center;
+              display: flex;
+          ">
+            <div class=" w3-half">
+              <button onclick="document.getElementById('id03').style.display='none'" type="button"
+                class="w3-button w3-block w3-green" style="display: block;
+              width: auto;
+              margin: auto;
+              margin: -56px 24px;
+              
+              ">Get The Best Deal.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container w3-light-grey"
+      style="padding:9px 16px;margin-top: 9px;background-color: #2e3842 !important;">
+      <div class="w3-row-padding">
+        <div class="w3-col m6">
+          <h3>Excited in no time.</h3>
+          <p style="color: yellow;"> The perfect companion for the racetrack: With its multitude of performance design
+            features and technical details, the chronograph 911 GT3 RS is perfectly matched to the car on which it's
+            based. Exclusively for owners of the new Porsche 911 GT3 RS and 911 GT3 RS with Weissach package.</p>
+          <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th">&nbsp;</i> Discover more</a></p>
+        </div>
+        <div class="w3-col m6">
+          <img class="w3-image w3-round-large" src="image/porsche-preview.webp" alt="Buildings" width="700"
+            height="394">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp" style="
+    background-color: #2e3842 !important;
+    margin-top: 12px;">
+
+      <h2 style="
+    padding: 1%;color: white;">Contact!</h2>
+      <p class="w3-large" style="color: yellow;">Contact your authorized Porsche dealer, request information, or
+        register for exclusive Porsche news.</p>
+      <p class="w3-xlarge">
+        <button onclick="document.getElementById('id01').style.display='block'"
+          class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding: -1px 0px">To The
+          Contact Form</button>
+      </p>
+    </div>
+    <!-- RSVP modal -->
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+        <div class="w3-container w3-white w3-center">
+          <h1 class="w3-wide" style="padding: 12px 0px;color: black;">Contact.</h1>
+
+
+          <p>Contact your authorized Porsche dealer, request information, or register for exclusive Porsche news.</p>
+          <form>
+
+            <input class="w3-input w3-border" type="text" placeholder=" Name(s)" name="name">
+            <input class="w3-input w3-border" type="text" placeholder="Email" Car Models="Car Name">
+
+            <input class="w3-input w3-border" type="text" placeholder="Phone Number" Phone Number="Phone Number">
+            <input class="w3-input w3-border" type="text" placeholder="Car Name" Car Models="Car Name">
+            <input class="w3-input w3-border" type="text" placeholder="message" message="message">
+          </form style="margin: -27px 0 1em 0;">
+          <div class="w3-row">
+            <div class="w3-half">
+              <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                class="w3-button w3-block w3-green">Send</button>
+            </div>
+            <div class="w3-half">
+              <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                class="w3-button w3-block w3-red">Call Service Center</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <body class="w3-light-grey w3-content" style="max-width:1600px">
+      <footer class="w3-container w3-padding-32 w3-grey     margin-left: 0%">
+        <div class="w3-row-padding" style="text-align: center;">
+          <div class="w3-third">
+            <h3>INFO</h3>
+            <p style="color: #fff;">They are only for the purposes of comparison between different vehicle types.
+              .</p>
+          </div>
+
+          <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <ul class="w3-ul">
+              <li class="w3-padding-16 w3-hover-black">
+                <img src="image/pic1.jpg" class="w3-left w3-margin-right" style="width:130px">
+                <span class="w3-large">Watch More Details</span><br>
+                <span>in youtube </span>
+              </li>
+              <li class="w3-padding-16 w3-hover-black">
+                <img src="image/pic3.jpg" class="w3-left w3-margin-right" style="width:130px">
+                <span class="w3-large">Watch More Details </span><br>
+                <span> in youtube </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w3-third">
+            <h3>POPULAR Country Buy Car</h3>
+            <p>
+              <span class="w3-tag w3-black w3-margin-bottom">India</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
+              <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">French</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vietnam</span>
+              <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Singapore</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New Zealand</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Malaysia</span>
+              <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Caledonia</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Philippines</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">China</span>
+              <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Malaysia</span> <span
+                class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vietnam</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <div class="w3-black w3-center w3-padding-24">Powered by <a href="" title="" target="_blank"
+          class="w3-hover-opacity">Vinay Yadav</a></div>
+      </div>
+
+    </body>
+    <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+      var mySidebar = document.getElementById("mySidebar");
+
+      function w3_open() {
+        if (mySidebar.style.display === 'block') {
+          mySidebar.style.display = 'none';
+        } else {
+          mySidebar.style.display = 'block';
+        }
+      }
+
+      // Close the sidebar with the close button
+      function w3_close() {
+        mySidebar.style.display = "none";
+      }
+
+
+    </script>
+
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+      var mySidebar = document.getElementById("mySidebar");
+
+      function w3_open() {
+        if (mySidebar.style.display === 'block') {
+          mySidebar.style.display = 'none';
+        } else {
+          mySidebar.style.display = 'block';
+        }
+      }
+
+      // Close the sidebar with the close button
+      function w3_close() {
+        mySidebar.style.display = "none";
+      }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+  </body>
+
+</html>
